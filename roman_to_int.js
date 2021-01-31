@@ -53,7 +53,7 @@ if (isArgGiven()) {
   let result = convert(roman);
 
   if (result !== null) {
-    console.log(roman + ' => ' + int);
+    console.log(roman + ' => ' + result);
   } else {
     console.log('"' + roman + '" is an invalid roman numeral');
   }
